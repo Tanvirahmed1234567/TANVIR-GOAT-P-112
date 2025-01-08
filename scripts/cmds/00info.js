@@ -15,12 +15,12 @@ module.exports = {
 		envConfig: {}
 	},
 	onStart: async function ({ message }) {
-		const authorName = " ⩸ᗷᗩᎩᒍᏆᗞ⩸ ";
-		const ownAge = "『 ⩸__17__⩸ 』";
-		const messenger = "https://m.me/100065506668822";
-		const authorFB = "https://www.facebook.com/profile.php?id=BAYJID.500k";
-		const authorNumber = "_01638007072";
-		const Status = "⩸__🆂🅸🅽🅶🅻🅴__⩸";
+		const authorName = " 𝐓𝐀𝐍𝐕𝐈𝐑 𝐀𝐇𝐌𝐄𝐃 ";
+		const ownAge = " __18+__";
+		const messenger = "𝐡𝐭𝐭𝐩𝐬://𝐦.𝐦𝐞/61567467803735";
+		const authorFB = "𝐡𝐭𝐭𝐩𝐬://𝐰𝐰𝐰.𝐟𝐚𝐜𝐞𝐛𝐨𝐨𝐤.𝐜𝐨𝐦/𝐭𝐚𝐧𝐯𝐢𝐫.112";
+		const authorNumber = "_01323850908";
+		const Status = "-𝐊𝐈𝐒𝐎 𝐁𝐎𝐋𝐀𝐑 𝐍𝐀𝐈-";
 		const urls = [
 "https://i.imgur.com/I8JSUWI.jpeg",
 "https://i.imgur.com/I8JSUWI.jpeg",
@@ -39,24 +39,23 @@ module.exports = {
 		const uptimeString = `${days} days ${hours} hours ${minutes} minutes ${seconds} seconds`;
 
 		message.reply({
-			body: `💫《 ⩸__𝐁𝐨𝐭 𝐀𝐧𝐝 𝐎𝐰𝐧𝐞𝐫 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧__⩸ 》💫
-\🤖BOT NAME : ⩸__${global.GoatBot.config.nickNameBot}__⩸
-\👾BOT SYSTEM PREFIX : ${global.GoatBot.config.prefix}
-\💙 OWNER NAME: ${authorName}
-\📝AGE  : ${ownAge}
-\💕RELATIONSHIP: ${Status}
-\🌐WP : ${authorNumber}
-\🌍 FACEBOOK LINK : ${authorFB}
-\🗓DATE : ${date}
-\⏰NOW TIME : ${time}
-\🔰ANY HELP CONTACT :⩸__${messenger}__⩸
-\📛BOT I'S RUNNING FOR : ${uptimeString}
-    𝑻𝒈: https://t.me/MOHAMMADBAYJID
-    𝑰𝒏𝒔𝒕𝒂: https://www.instagram.com/mr_bayjid120?
-    𝑪𝒂𝒑𝑪𝒖𝒕: copy_bayjid
-    𝑻𝒊𝒌𝑻𝒐𝒌: https://www.tiktok.com/@copy_bayjid?
-    𝒀𝒐𝒖𝑻𝒖𝒃𝒆: https://youtube.com/@Bayjid Editz?
-\===============`,
+			body: `●❯────────────────❮●💫《 ⩸__𝐁𝐨𝐭 𝐀𝐧𝐝 𝐎𝐰𝐧𝐞𝐫 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧__⩸ 》💫
+\🤖𝐁𝐎𝐓 𝐍𝐀𝐌𝐄: ${global.GoatBot.config.nickNameBot}__⩸
+\👾𝐁𝐎𝐓 𝐒𝐘𝐒𝐓𝐄𝐌 𝐏𝐑𝐄𝐅𝐈𝐗 : ${global.GoatBot.config.prefix}
+\💙 𝐎𝐖𝐍𝐄𝐑 𝐍𝐀𝐌𝐄: ${authorName}
+\📝𝐀𝐆𝐄  : ${ownAge}
+\💕𝐑𝐄𝐋𝐀𝐓𝐈𝐎𝐍𝐒𝐇𝐈𝐏: ${Status}
+\🌐𝐖𝐏 : ${authorNumber}
+\🌍𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊 𝐋𝐈𝐍𝐊 : ${authorFB}
+\🗓𝐃𝐀𝐓𝐄 : ${date}
+\⏰𝐍𝐎𝐖 𝐓𝐈𝐌𝐄 : ${time}
+\🔰𝐀𝐍𝐘 𝐇𝐄𝐋𝐏 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 :⩸__${messenger}__⩸
+\📛𝐁𝐎𝐓 𝐈'𝐒 𝐑𝐔𝐍𝐍𝐈𝐍𝐆 𝐅𝐎𝐑 : ${uptimeString}
+    𝐓𝐆: 𝐡𝐭𝐭𝐩𝐬://𝐭.𝐦𝐞/𝐭𝐚𝐧𝐯𝐢𝐫𝐚𝐡𝐦𝐞𝐝
+    𝐈𝐍𝐒𝐓𝐀: 𝐡𝐭𝐭𝐩𝐬://𝐰𝐰𝐰.𝐢𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦.𝐜𝐨𝐦/𝐭𝐚𝐧𝐯𝐢_𝐫___112?
+    𝐓𝐢𝐤𝐭𝐨𝐤: 𝐁𝐀𝐋 𝐔𝐒𝐄 𝐊𝐎𝐑𝐈 𝐍𝐀🥴
+    𝐘𝐨𝐮𝐓𝐨𝐮𝐛: 𝐡𝐭𝐭𝐩𝐬://𝐲𝐨𝐮𝐭𝐮𝐛𝐞.com/@𝐭𝐚𝐧𝐯𝐢𝐫_𝐚𝐡𝐦𝐞𝐝?
+\=●❯────────────────❮●`,
 			attachment: await global.utils.getStreamFromURL(link)
 		});
 	},
