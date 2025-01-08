@@ -30,11 +30,11 @@ module.exports = {
 		const system = `OS: ${os.platform()} ${os.release()}`;
 		const cores = `Cores: ${os.cpus().length}`;
 		const arch = `Architecture: ${os.arch()}`;
-		const totalMemory = `Total Memory: ${Math.round(os.totalmem() / (1024 * 1024 * 1024))} GB`;
-		const freeMemory = `Free Memory: ${Math.round(os.freemem() / (1024 * 1024 * 1024))} GB`;
-		const uptimeString = `Uptime: ${days} days, ${hours} hours, ${mins} minutes, and ${seconds} seconds`;
+		const totalMemory = `𝐓𝐨𝐭𝐚𝐥  𝐌𝐞𝐦𝐨𝐫𝐲: ${Math.round(os.totalmem() / (1024 * 1024 * 1024))} GB`;
+		const freeMemory = `𝐅𝐫𝐞𝐞 𝐌𝐞𝐦𝐨𝐫𝐲: ${Math.round(os.freemem() / (1024 * 1024 * 1024))} GB`;
+		const uptimeString = `𝐔𝐩𝐭𝐢𝐦𝐞: ${days} 𝐝𝐚𝐲𝐬, ${hours} 𝐡𝐨𝐮𝐫𝐬, ${mins} 𝐦𝐢𝐧𝐮𝐭𝐞𝐬, 𝐚𝐧𝐝 ${seconds} 𝐬𝐞𝐜𝐨𝐧𝐝𝐬 `;
 
-		const response = `🕒 ${uptimeString}\n📡 ${system}\n🛡 ${cores}\n⚔ No AI Status\n📈 Total Users: ${threadsData.size}\n📉 Total Threads: ${threadsData.size}\n⚖ AI Usage: 0.0\n📊 RAM Usage: ${Math.round(process.memoryUsage().rss / (1024 * 1024))} MB\n💰 Total(RAM): ${Math.round(os.totalmem() / (1024 * 1024 * 1024))} GB\n💸 Current(RAM): ${Math.round(os.freemem() / (1024 * 1024 * 1024))} GB\n🛫 Ping: 15 ms\n🕰 Uptime(Seconds): ${Math.floor(process.uptime())}`;
+		const response = `●❯────────────────❮●\n         -♦𝐓𝐀𝐍𝐕𝐈𝐑-𝐁𝐎𝐓♦-         \n●❯────────────────❮●\n𒆕│🕒 ${uptimeString}\n📡 ${system}\n🛡 ${cores}\n⚔ 𝐍𝐨 𝐀𝐈 Status\n📈 𝐓𝐨𝐭𝐚𝐥 𝐔𝐬𝐞𝐫𝐬: ${threadsData.size}\n📉 𝐓𝐨𝐭𝐚𝐥 𝐓𝐡𝐫𝐞𝐚𝐝𝐬: ${threadsData.size}\n⚖ 𝐀𝐈 𝐔𝐬𝐚𝐠𝐞: 0.0\n📊 𝐑𝐀𝐌 𝐔𝐬𝐚𝐠𝐞: ${Math.round(process.memoryUsage().rss / (1024 * 1024))} 𝐌𝐁:-\n💰 𝐓𝐨𝐭𝐚𝐥(𝐑𝐀𝐌): ${Math.round(os.totalmem() / (1024 * 1024 * 1024))} 𝐆𝐁:-\n💸 𝐂𝐮𝐫𝐫𝐞𝐧𝐭(𝐑𝐀𝐌): ${Math.round(os.freemem() / (1024 * 1024 * 1024))} 𝐆𝐁:-\n🛫 𝐏𝐢𝐧𝐠: 15 ms\n🕰 Uptime(Seconds): ${Math.floor(process.uptime())}\n●❯────────────────❮●`;
 
 		message.reply(response);
 	},
