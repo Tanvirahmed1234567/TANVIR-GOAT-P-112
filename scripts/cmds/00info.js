@@ -22,10 +22,10 @@ module.exports = {
 		const authorNumber = "_01323850908";
 		const Status = "-𝐊𝐈𝐒𝐎 𝐁𝐎𝐋𝐀𝐑 𝐍𝐀𝐈-";
 		const urls = [
-"https://i.imgur.com/I8JSUWI.jpeg",
-"https://i.imgur.com/I8JSUWI.jpeg",
-"https://i.imgur.com/I8JSUWI.jpeg",
-"https://i.imgur.com/I8JSUWI.jpeg"
+"https://i.imgur.com/yja0VGP.jpeg",
+"https://i.imgur.com/dCDyEVS.jpeg",
+"https://i.imgur.com/yja0VGP.jpeg",
+"https://i.imgur.com/dCDyEVS.jpeg"
 ];
 		const link = urls[Math.floor(Math.random() * urls.length)];
 		const now = moment().tz('Asia/Jakarta');
