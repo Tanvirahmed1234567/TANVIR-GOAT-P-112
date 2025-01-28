@@ -20,11 +20,11 @@ langs: {
     en: {
         invaildNumber: "%1 is not an invalid number",
         cancelSuccess: "Refused %1 thread!",
-        approveSuccess: "Approved successfully %1 threads!",
+        approveSuccess: "-♦𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 %1 𝐭𝐡𝐫𝐞𝐚𝐝𝐬♦-!",
 
         cantGetPendingList: "Can't get the pending list!",
-        returnListPending: "»「PENDING」«❮ The whole number of threads to approve is: %1 thread ❯\n\n%2",
-        returnListClean: "「PENDING」There is no thread in the pending list"
+        returnListPending: "-♦»「𝐏𝐄𝐍𝐃𝐈𝐍𝐆」«❮ 𝐓𝐡𝐞 𝐰𝐡𝐨𝐥𝐞 𝐧𝐮𝐦𝐛𝐞𝐫 𝐨𝐟 𝐭𝐡𝐫𝐞𝐚𝐝𝐬 𝐭𝐨 𝐚𝐩𝐩𝐫𝐨𝐯𝐞 𝐢𝐬: %1 𝐭𝐡𝐫𝐞𝐚𝐝 ❯♦-\n\n%2",
+        returnListClean: "-♦「𝐏𝐄𝐍𝐃𝐈𝐍𝐆」𝐓𝐡𝐞𝐫𝐞 𝐢𝐬 𝐧𝐨 𝐭𝐡𝐫𝐞𝐚𝐝 𝐢𝐧 𝐭𝐡𝐞 𝐩𝐞𝐧𝐝𝐢𝐧𝐠 𝐥𝐢𝐬𝐭♦-"
     }
   },
 
@@ -49,13 +49,13 @@ onReply: async function({ api, event, Reply, getLang, commandName, prefix }) {
             if (isNaN(ArYanIndex) || ArYanIndex <= 0 || ArYanIndex > Reply.pending.length) return api.sendMessage(getLang("invaildNumber", ArYanIndex), threadID, messageID);
             api.sendMessage(`successful add 
 
-🪷Bot Owner: 𝐌𝐎𝐇𝐀𝐌𝐌𝐀𝐃 𝐁𝐀𝐘𝐉𝐈𝐃 🐸🪽
+🪷𝐁𝐎𝐓 𝐎𝐰𝐧𝐞𝐫:  𝐓𝐀𝐍𝐕𝐈𝐑 𝐀𝐇𝐌𝐄𝐃♦-
 
-🏵️Bot Owner Telegram: @MOHAMMADBAYJID👽🪽
+🏵️𝐁𝐎𝐓 𝐎𝐰𝐧𝐞𝐫 𝐓𝐆: @𝐓𝐀𝐍𝐕𝐈_𝐑_112♦- 
 
-🌸You Need Help sms Whatsapp: 01638007072🤡🪽
+🌸𝐘𝐨𝐮 𝐍𝐞𝐞𝐝 𝐇𝐞𝐥𝐩 𝐬𝐦𝐬 𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩: 01323850908🌐-
 
-💐FB LINK: https://www.facebook.com/BAYJID.404 🫂🪽 `, Reply.pending[ArYanIndex - 1].threadID);
+💐𝐅𝐁 𝐋𝐈𝐍𝐊: 𝐡𝐭𝐭𝐩𝐬://𝐰𝐰𝐰.𝐟𝐚𝐜𝐞𝐛𝐨𝐨𝐤.𝐜𝐨𝐦/𝐓𝐚𝐧𝐯𝐢_𝐫___112`, Reply.pending[ArYanIndex - 1].threadID);
             count+=1;
         }
         return api.sendMessage(getLang("approveSuccess", count), threadID, messageID);
