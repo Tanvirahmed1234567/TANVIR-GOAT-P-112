@@ -89,33 +89,33 @@ handlerCheckData.cantCreateThread=Groups with id '%1' cannot be written to the d
 handlerCheckData.cantCreateUser=Users with id '%1' cannot be written to the database!
 
 # bot/handler/handlerEvents.js
-handlerEvents.userBanned=You have been banned from using the bot\n» Reason: %1\n» Time: %2\n» User ID: %3
-handlerEvents.threadBanned=This group has been banned from using the bot\n» Reason: %1\n» Time: %2\n» Thread ID: %3
-handlerEvents.onlyAdminBox=This group is currently enabled only group administrators can use the bot
-handlerEvents.onlyAdminBot=❌ | Currently only bot's admin can use bot
-handlerEvents.commandNotFound=Command "%1" does not exist, type %2help to see all available commands
-handlerEvents.commandNotFound2=The command you are using does not exist, type %1help to see all available commands
-handlerEvents.commandSyntaxError=ei khankir pola ei ta te cmd nai sor, please type %1help %2 to se all command ┌─────═━┈━═─────┐
-  🪄 Your Current Prefix ✨
-  🌐  System Prefix: ?
-  🛸  Group Prefix: ?
+handlerEvents.userBanned=♦-𝚈𝚘𝚞 𝚑𝚊𝚟𝚎 𝚋𝚎𝚎𝚗 𝚋𝚊𝚗𝚗𝚎𝚍 𝚏𝚛𝚘𝚖 𝚞𝚜𝚒𝚗𝚐 𝚝𝚑𝚎 𝚋𝚘𝚝\n» 𝚁𝚎𝚊𝚜𝚘𝚗: %1\n» 𝚃𝚒𝚖𝚎: %2\n» 𝚄𝚜𝚎𝚛 𝙸𝙳: %3
+handlerEvents.threadBanned=♦-𝚃𝚑𝚒𝚜 𝚐𝚛𝚘𝚞𝚙 𝚑𝚊𝚜 𝚋𝚎𝚎𝚗 𝚋𝚊𝚗𝚗𝚎𝚍 𝚏𝚛𝚘𝚖 𝚞𝚜𝚒𝚗𝚐 𝚝𝚑𝚎 𝚋𝚘𝚝\n» 𝚁𝚎𝚊𝚜𝚘𝚗: %1\n» 𝚃𝚒𝚖𝚎: %2\n» 𝚃𝚑𝚛𝚎𝚊𝚍 𝙸𝙳: %3
+handlerEvents.onlyAdminBox=🚫-𝚃𝚑𝚒𝚜 𝚐𝚛𝚘𝚞𝚙 𝚒𝚜 𝚌𝚞𝚛𝚛𝚎𝚗𝚝𝚕𝚢 𝚎𝚗𝚊𝚋𝚕𝚎𝚍 𝚘𝚗𝚕𝚢 𝚐𝚛𝚘𝚞𝚙 𝚊𝚍𝚖𝚒𝚗𝚒𝚜𝚝𝚛𝚊𝚝𝚘𝚛𝚜 𝚌𝚊𝚗 𝚞𝚜𝚎 𝚝𝚑𝚎 𝚋𝚘𝚝-♦
+handlerEvents.onlyAdminBot=❌ |-𝙲𝚞𝚛𝚛𝚎𝚗𝚝𝚕𝚢 𝚘𝚗𝚕𝚢 𝚋𝚘𝚝'𝚜 𝚊𝚍𝚖𝚒𝚗 𝚌𝚊𝚗 𝚞𝚜𝚎 𝚋𝚘𝚝
+handlerEvents.commandNotFound=🌐-𝙲𝚘𝚖𝚖𝚊𝚗𝚍 "%1" 𝚍𝚘𝚎𝚜 𝚗𝚘𝚝 𝚎𝚡𝚒𝚜𝚝, 𝚝𝚢𝚙𝚎 %2𝚑𝚎𝚕𝚙 𝚝𝚘 𝚜𝚎𝚎 𝚊𝚕𝚕 𝚊𝚟𝚊𝚒𝚕𝚊𝚋𝚕𝚎 𝚌𝚘𝚖𝚖𝚊𝚗𝚍𝚜
+handlerEvents.commandNotFound2=🌐-𝚃𝚑𝚎 𝚌𝚘𝚖𝚖𝚊𝚗𝚍 𝚢𝚘𝚞 𝚊𝚛𝚎 𝚞𝚜𝚒𝚗𝚐 𝚍𝚘𝚎𝚜 𝚗𝚘𝚝 𝚎𝚡𝚒𝚜𝚝, 𝚝𝚢𝚙𝚎 %1𝚑𝚎𝚕𝚙 𝚝𝚘 𝚜𝚎𝚎 𝚊𝚕𝚕 𝚊𝚟𝚊𝚒𝚕𝚊𝚋𝚕𝚎 𝚃𝙰𝙽𝚅𝙸𝚁 𝙱𝙾𝚃 𝚌𝚘𝚖𝚖𝚊𝚗𝚍𝚜-♦
+handlerEvents.commandSyntaxError=-𝙴𝚒 𝙱𝚘𝚕𝚘𝚍 𝚎𝚒 𝚝𝚊 𝚝𝚎 𝚌𝚖𝚍 𝚗𝚊𝚒 𝚜𝚘𝚛, 𝚙𝚕𝚎𝚊𝚜𝚎 𝚝𝚢𝚙𝚎 %1𝚑𝚎𝚕𝚙 %2 𝚝𝚘 𝚜𝚎 𝚊𝚕𝚕 𝚃𝙰𝙽𝚅𝙸𝚁 𝙱𝙾𝚃 𝚌𝚘𝚖𝚖𝚊𝚗𝚍 ┌─────═━┈━═─────┐
+  🪄 𝚈𝚘𝚞𝚛 𝙲𝚞𝚛𝚛𝚎𝚗𝚝 𝙿𝚛𝚎𝚏𝚒𝚡 ✨
+  🌐  𝚂𝚢𝚜𝚝𝚎𝚖 𝙿𝚛𝚎𝚏𝚒𝚡: ?
+  🛸  𝙶𝚛𝚘𝚞𝚙 𝙿𝚛𝚎𝚏𝚒𝚡: ?
 └─────═━┈━═─────┘
-handlerEvents.onlyAdmin=❌ | Only group administrators can use the command "%1"
-handlerEvents.onlyAdminToUseOnReply=❌ | Only group administrators can use the reply function of the command "%1"
-handlerEvents.onlyAdminToUseOnReaction=❌ | Only group administrators can use the reaction function of the command "%1"
-handlerEvents.onlyAdminBot2=❌ | Only bot's admin can use the command "%1"
-handlerEvents.onlyAdminBot2ToUseOnReply=❌ | Only bot's admin can use the reply function of the command "%1"
-handlerEvents.onlyAdminBot2ToUseOnReaction=❌ | Only bot's admin can use the reaction function of the command "%1"
-handlerEvents.waitingForCommand=⏱ You are in the waiting time to use this command, please come back after %1s
-handlerEvents.errorOccurred=❌ [ %1 ]\nAn error occurred at command "%2"\n\n%3
-handlerEvents.errorOccurred2=❌ [ %1 ]\nAn error occurred at command onChat in command "%2"\n\n%3
-handlerEvents.errorOccurred3=❌ [ %1 ]\nAn error occurred when executing onReply at command "%2"\n\n%3
-handlerEvents.errorOccurred4=❌ [ %1 ]\nAn error occurred when executing onReaction at command "%2"\n\n%3
-handlerEvents.errorOccurred5=❌ [ %1 ]\nAn error occurred when executing onEvent at command "%2"\n\n%3
-handlerEvents.errorOccurred6=❌ [ %1 ]\nAn error occurred when executing onEvent at command "%2"\n\n%3
-handlerEvents.errorOccurred7=❌ [ %1 ]\nAn error occurred when executing onAnyEvent at command "%2"\n\n%3
-handlerEvents.cannotFindCommandName=❌ Cannot find command name to execute this reply!
-handlerEvents.cannotFindCommand=❌ Cannot find command "%1" to execute this reply!
+handlerEvents.onlyAdmin=❌ |-𝙾𝚗𝚕𝚢 𝚐𝚛𝚘𝚞𝚙 𝚊𝚍𝚖𝚒𝚗𝚒𝚜𝚝𝚛𝚊𝚝𝚘𝚛𝚜 𝚌𝚊𝚗 𝚞𝚜𝚎 𝚝𝚑𝚎 𝚌𝚘𝚖𝚖𝚊𝚗𝚍 "%1"
+handlerEvents.onlyAdminToUseOnReply=❌ |-𝙾𝚗𝚕𝚢 𝚐𝚛𝚘𝚞𝚙 𝚊𝚍𝚖𝚒𝚗𝚒𝚜𝚝𝚛𝚊𝚝𝚘𝚛𝚜 𝚌𝚊𝚗 𝚞𝚜𝚎 𝚝𝚑𝚎 𝚛𝚎𝚙𝚕𝚢 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗 𝚘𝚏 𝚝𝚑𝚎 𝚌𝚘𝚖𝚖𝚊𝚗𝚍 "%1"
+handlerEvents.onlyAdminToUseOnReaction=❌ |-𝙾𝚗𝚕𝚢 𝚐𝚛𝚘𝚞𝚙 𝚊𝚍𝚖𝚒𝚗𝚒𝚜𝚝𝚛𝚊𝚝𝚘𝚛𝚜 𝚌𝚊𝚗 𝚞𝚜𝚎 𝚝𝚑𝚎 𝚛𝚎𝚊𝚌𝚝𝚒𝚘𝚗  𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗 𝚘𝚏 𝚝𝚑𝚎 𝚌𝚘𝚖𝚖𝚊𝚗𝚍 "%1"
+handlerEvents.onlyAdminBot2=❌ |-𝙾𝚗𝚕𝚢 𝚋𝚘𝚝'𝚜 𝚊𝚍𝚖𝚒𝚗 𝚌𝚊𝚗 𝚞𝚜𝚎 𝚝𝚑𝚎 𝚌𝚘𝚖𝚖𝚊𝚗𝚍 "%1"
+handlerEvents.onlyAdminBot2ToUseOnReply=❌ |-𝙾𝚗𝚕𝚢 𝚋𝚘𝚝'𝚜 𝚊𝚍𝚖𝚒𝚗 𝚌𝚊𝚗 𝚞𝚜𝚎 𝚝𝚑𝚎 𝚛𝚎𝚙𝚕𝚢 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗 𝚘𝚏 𝚝𝚑𝚎 𝚌𝚘𝚖𝚖𝚊𝚗𝚍 "%1"
+handlerEvents.onlyAdminBot2ToUseOnReaction=❌ |-𝙾𝚗𝚕𝚢 𝚋𝚘𝚝'𝚜 𝚊𝚍𝚖𝚒𝚗 𝚌𝚊𝚗 𝚞𝚜𝚎 𝚝𝚑𝚎 𝚛𝚎𝚊𝚌𝚝𝚒𝚘𝚗 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗 𝚘𝚏 𝚝𝚑𝚎 𝚌𝚘𝚖𝚖𝚊𝚗𝚍 "%1"
+handlerEvents.waitingForCommand=⏱-𝚈𝚘𝚞 𝚊𝚛𝚎 𝚒𝚗 𝚝𝚑𝚎 𝚠𝚊𝚒𝚝𝚒𝚗𝚐 𝚝𝚒𝚖𝚎 𝚝𝚘 𝚞𝚜𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚖𝚖𝚊𝚗𝚍, 𝚙𝚕𝚎𝚊𝚜𝚎 𝚌𝚘𝚖𝚎 𝚋𝚊𝚌𝚔 𝚊𝚏𝚝𝚎𝚛 %1s
+handlerEvents.errorOccurred=❌ [ %1 ]\n𝙰𝚗 𝚎𝚛𝚛𝚘𝚛 𝚘𝚌𝚌𝚞𝚛𝚛𝚎𝚍 𝚊𝚝 𝚌𝚘𝚖𝚖𝚊𝚗𝚍 "%2"\n\n%3
+handlerEvents.errorOccurred2=❌ [ %1 ]\n 𝙰𝚗 𝚎𝚛𝚛𝚘𝚛 occurred at command onChat in command "%2"\n\n%3
+handlerEvents.errorOccurred3=❌ [ %1 ]\n 𝙰𝚗 𝚎𝚛𝚛𝚘𝚛 𝚘𝚌𝚌𝚞𝚛𝚛𝚎𝚍 𝚠𝚑𝚎𝚗 𝚎𝚡𝚎𝚌𝚞𝚝𝚒𝚗𝚐 𝚘𝚗𝚁𝚎𝚙𝚕𝚢 𝚊𝚝 𝚌𝚘𝚖𝚖𝚊𝚗𝚍 "%2"\n\n%3
+handlerEvents.errorOccurred4=❌ [ %1 ]\n 𝙰𝚗 𝚎𝚛𝚛𝚘𝚛 𝚘𝚌𝚌𝚞𝚛𝚛𝚎𝚍 𝚠𝚑𝚎𝚗 𝚎𝚡𝚎𝚌𝚞𝚝𝚒𝚗𝚐 𝚘𝚗𝚁𝚎𝚊𝚌𝚝𝚒𝚘𝚗 𝚊𝚝 𝚌𝚘𝚖𝚖𝚊𝚗𝚍 "%2"\n\n%3
+handlerEvents.errorOccurred5=❌ [ %1 ]\n 𝙰𝚗 𝚎𝚛𝚛𝚘𝚛 𝚘𝚌𝚌𝚞𝚛𝚛𝚎𝚍 𝚠𝚑𝚎𝚗 𝚎𝚡𝚎𝚌𝚞𝚝𝚒𝚗𝚐 𝚘𝚗𝙴𝚟𝚎𝚗𝚝 𝚊𝚝 𝚌𝚘𝚖𝚖𝚊𝚗𝚍 "%2"\n\n%3
+handlerEvents.errorOccurred6=❌ [ %1 ]\n 𝙰𝚗 𝚎𝚛𝚛𝚘𝚛 𝚘𝚌𝚌𝚞𝚛𝚛𝚎𝚍 𝚠𝚑𝚎𝚗 𝚎𝚡𝚎𝚌𝚞𝚝𝚒𝚗𝚐 𝚘𝚗𝙴𝚟𝚎𝚗𝚝 𝚊𝚝 𝚌𝚘𝚖𝚖𝚊𝚗𝚍 "%2"\n\n%3
+handlerEvents.errorOccurred7=❌ [ %1 ]\n 𝙰𝚗 𝚎𝚛𝚛𝚘𝚛 𝚘𝚌𝚌𝚞𝚛𝚛𝚎𝚍 𝚠𝚑𝚎𝚗 𝚎𝚡𝚎𝚌𝚞𝚝𝚒𝚗𝚐 𝚘𝚗𝙰𝚗𝚢𝙴𝚟𝚎𝚗𝚝 𝚊𝚝 𝚌𝚘𝚖𝚖𝚊𝚗𝚍 "%2"\n\n%3
+handlerEvents.cannotFindCommandName=❌ -𝙲𝚊𝚗𝚗𝚘𝚝 𝚏𝚒𝚗𝚍 𝚌𝚘𝚖𝚖𝚊𝚗𝚍 𝚗𝚊𝚖e 𝚝𝚘 𝚎𝚡𝚎𝚌𝚞𝚝𝚎 𝚝𝚑𝚒𝚜 𝚛𝚎𝚙𝚕𝚢!
+handlerEvents.cannotFindCommand=❌ -𝙲𝚊𝚗𝚗𝚘𝚝 𝚏𝚒𝚗𝚍 𝚌𝚘𝚖𝚖𝚊𝚗𝚍 "%1" 𝚝𝚘 𝚎𝚡𝚎𝚌𝚞𝚝𝚎 𝚝𝚑𝚒𝚜 𝚛𝚎𝚙𝚕𝚢!
 
 # bot/autoUptime.js
 autoUptime.autoUptimeTurnedOn=AutoUptime mode turned on
@@ -136,16 +136,17 @@ updater.newVersions=There are %1 new versions to update, starting to update...
 updater.updateSuccess=Update successfully%1
 updater.configChanged=The %1 has been changed, please check your config.json file again
 updater.installingPackages=Installing dependencies for bot...
-updater.installSuccess=Installed dependencies successfully, restart the bot to use the new version
-updater.backupSuccess=Successfully backed up changed files, see in the %1 folder
-updater.restartToApply=. Restart the bot to apply the new version
-updater.skipFile=There is a new version of the %1 file, but you have skipped this file during the update process with the comment %2 in this file
+updater.installSuccess=𝙸𝚗𝚜𝚝𝚊𝚕𝚕𝚎𝚍 𝚍𝚎𝚙𝚎𝚗𝚍𝚎𝚗𝚌𝚒𝚎𝚜 𝚜𝚞𝚌𝚌𝚎𝚜𝚜𝚏𝚞𝚕𝚕𝚢, 𝚛𝚎𝚜𝚝𝚊𝚛𝚝 𝚝𝚑𝚎 𝚋𝚘𝚝 𝚝𝚘 𝚞𝚜𝚎 𝚝𝚑𝚎 𝚗𝚎𝚠 𝚟𝚎𝚛𝚜𝚒𝚘𝚗
+updater.backupSuccess=𝚂𝚞𝚌𝚌𝚎𝚜𝚜𝚏𝚞𝚕𝚕𝚢 𝚋𝚊𝚌𝚔𝚎𝚍 𝚞𝚙 𝚌𝚑𝚊𝚗𝚐𝚎𝚍 𝚏𝚒𝚕𝚎𝚜, 𝚜𝚎𝚎 𝚒𝚗 𝚝𝚑𝚎 %1 𝚏𝚘𝚕𝚍𝚎𝚛
+updater.restartToApply=. 𝚁𝚎𝚜𝚝𝚊𝚛𝚝 𝚝𝚑𝚎 𝚋𝚘𝚝 𝚝𝚘 𝚊𝚙𝚙𝚕𝚢 𝚝𝚑𝚎 𝚗𝚎𝚠 
+version
+updater.skipFile=𝚃𝚑𝚎𝚛𝚎 𝚒𝚜 𝚊 𝚗𝚎𝚠 𝚟𝚎𝚛𝚜𝚒𝚘𝚗 𝚘𝚏 𝚝𝚑𝚎 %1 𝚏𝚒𝚕𝚎, 𝚋𝚞𝚝 𝚢𝚘𝚞 𝚑𝚊𝚟𝚎 𝚜𝚔𝚒𝚙𝚙𝚎𝚍 𝚝𝚑𝚒𝚜 𝚏𝚒𝚕𝚎 𝚍𝚞𝚛𝚒𝚗𝚐 𝚝𝚑𝚎 𝚞𝚙𝚍𝚊𝚝𝚎 𝚙𝚛𝚘𝚌𝚎𝚜𝚜 𝚠𝚒𝚝𝚑 𝚝𝚑𝚎 𝚌𝚘𝚖𝚖𝚎𝚗𝚝 %2 𝚒𝚗 𝚝𝚑𝚒𝚜 𝚏𝚒𝚕𝚎
 
 # dashboard/routes/verifyfbid.js
-verifyfbid.sendCode=Your verification code is:\n%1\nThe verification code is valid for %2 minutes
+verifyfbid.sendCode=𝚈𝚘𝚞𝚛 𝚟𝚎𝚛𝚒𝚏𝚒𝚌𝚊𝚝𝚒𝚘𝚗 𝚌𝚘𝚍𝚎 𝚒𝚜:\n%1\nThe verification code is valid for %2 minutes
 
 # utils.js
-utils.errorOccurred=❌ An error occurred:\n\n%1
+utils.errorOccurred=❌-𝙰𝚗 𝚎𝚛𝚛𝚘𝚛 𝚘𝚌𝚌𝚞𝚛𝚛𝚎𝚍:\n\n%1
 
 # for command
 command.restartedBot=Bot has been restarted
