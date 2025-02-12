@@ -4,7 +4,7 @@ module.exports = {
     version: "1.0",
     author: "Shikaki",
     countDown: 60,
-    role: 0,
+    role: 2,
     shortDescription: "Get user information and avatar",
     longDescription: "Get user information and avatar by mentioning",
     category: "image",
@@ -55,7 +55,7 @@ module.exports = {
       }
 
       // Construct and send the user's information with avatar
-      const userInformation = `❏ Name: ${userInfo[uid].name}\n❏ Profile URL: ${userInfo[uid].profileUrl}\n❏ Gender: ${genderText}\n❏ User Type: ${userInfo[uid].type}\n❏ Is Friend: ${userInfo[uid].isFriend ? "Yes" : "No"}\n❏ Is Birthday today: ${userInfo[uid].isBirthday ? "Yes" : "No"}`;
+      const userInformation = `💥__Name: ${userInfo[uid].name}\n💥__Profile URL: ${userInfo[uid].profileUrl}\n💥__Gender: ${genderText}\n💥__User Type: ${userInfo[uid].type}\n💥__Is Friend: ${userInfo[uid].isFriend ? "Yes" : "No"}\n💥__Is Birthday today: ${userInfo[uid].isBirthday ? "Yes" : "No"}`;
 
       message.reply({
         body: userInformation,
